@@ -1,0 +1,76 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.top_contacts {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(68, 113, 165);
+}
+
+.contatcs-tel {
+    display: flex;
+}
+
+.tel, .contacts-media  {
+    margin-right: 20px;
+}
+
+.media {
+    margin-right: 10px;
+}
+
+.tel, .link-tel, .mail, .link-mail, .media {
+    color: rgb(255,182,1);
+}
+
+.link-tel:hover, .link-mail:hover, .media:hover {
+    color: white;
+}
+
+.logo {
+    transition: transform 3s ease-in-out ;
+}
+
+.logo:hover {
+    transform: rotate(360deg);
+}
+
+.nav-link:hover {
+    background-color: rgb(255,182,1);
+    border-radius: 7px;
+}
+
+.statement {
+    color:  rgb(68, 113, 165);
+    font-size: 22px;
+    font-weight: 900;
+    text-align: center;
+    
+}
+
+.carousel-caption {
+    background-color: rgba(255, 255, 255, 0.815);
+    border-radius: 10px;
+    color:  rgb(68, 113, 165);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.aboutHeader {
+    color:  rgb(68, 113, 165);
+}
+
+.advHeader {
+    color:  rgb(68, 113, 165);
+    font-weight: 700;
+}
+
+.contactsList {
+    list-style: none;
+}
+
+.aboutPhoto {
+    object-fit: cover;
+}
